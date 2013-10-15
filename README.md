@@ -14,6 +14,7 @@ http://gruntjs.com/getting-started/
 Aller via terminal dans le dossier du template ( root )
 ```shell
 npm install grunt --save-dev
+npm install
 ```
 
 4 - Executer le watcher
