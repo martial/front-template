@@ -78,15 +78,15 @@ module.exports = function (grunt) {
             },
             less  : {
                 files: 'less/*.less',
-                tasks: ['dist-site']
+                tasks: ['dist-css']
             },
             js    : {
                 files: 'js/site/*.js',
-                tasks: ['dist-site']
+                tasks: ['dist-js']
             },
             jslibs: {
                 files: 'js/libs/*.js',
-                tasks: ['dist-site']
+                tasks: ['dist-js']
             }
         }
     });
