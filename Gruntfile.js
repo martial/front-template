@@ -69,21 +69,24 @@ module.exports = function (grunt) {
         },
 
         watch: {
+            options : {
+                //livereload: true
+            },
             bootstrap  : {
                 files: '<%= bootstrapdir %>/less/*.less',
                 tasks: ['dist']
             },
             less  : {
                 files: 'less/*.less',
-                tasks: ['dist']
+                tasks: ['dist-site']
             },
             js    : {
                 files: 'js/site/*.js',
-                tasks: ['dist']
+                tasks: ['dist-site']
             },
             jslibs: {
                 files: 'js/libs/*.js',
-                tasks: ['dist']
+                tasks: ['dist-site']
             }
         }
     });
@@ -101,6 +104,8 @@ module.exports = function (grunt) {
 
     grunt.registerTask('dist-js', ['concat', 'uglify']);
     grunt.registerTask('dist-css', ['recess']);
+    grunt.registerTask('dist-site', ['concat', 'uglify', 'dist-css']);
+
     grunt.registerTask('dist', ['clean', 'dist-css', 'dist-js', 'shell:btsrap']);
 
     grunt.registerTask('default', ['dist']);
