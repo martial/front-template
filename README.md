@@ -2,14 +2,17 @@
 
 ## Installation :
 
-1 - Installer NODE.JS
+1 - Installer GIT
+http://git-scm.com/downloads
+
+2 - Installer NODE.JS
 http://nodejs.org/ 
 
-2 - Installer grunt
+3 - Installer grunt
 http://gruntjs.com/getting-started/
 
 
-3 - Installer les modules grunts
+4 - Installer les modules grunts
 
 Aller via terminal dans le dossier du template ( root )
 ```shell
@@ -17,7 +20,7 @@ npm install grunt --save-dev
 npm install
 ```
 
-4 - Executer le watcher
+5 - Executer le watcher
 ```shell
 grunt watch
 ```
