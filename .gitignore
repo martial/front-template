@@ -43,6 +43,11 @@ validation-staus.json
 .idea
 node_modules
 
+public/fonts
+public/css
+public/images
+public/js
+
 bootstrap-3.0.0/node_modules
 bootstrap-3.0.0/examples
 *.css
