@@ -16,11 +16,25 @@ http://gruntjs.com/getting-started/
 
 Aller via terminal dans le dossier du template ( root )
 ```shell
-npm install grunt --save-dev
+npm install grunt
 npm install
 ```
 
-5 - Executer le watcher
+Aussi installer les modules dans le dossier Bootstrap
+
+```shell
+cd bootstrap3-0.0
+npm install
+cd..
+```
+
+5 - compiler tout pour la première fois 
+
+```shell
+grunt dist
+```
+
+6 - Executer le watcher
 ```shell
 grunt watch
 ```
