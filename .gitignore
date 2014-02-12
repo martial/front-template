@@ -50,4 +50,8 @@ public/js
 
 bootstrap-3.0.0/node_modules
 bootstrap-3.0.0/examples
+
+bootstrap-3.1.0/node_modules
+bootstrap-3.1.0/examples
+
 *.css
