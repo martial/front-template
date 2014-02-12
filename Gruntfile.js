@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
 
         pkg         : grunt.file.readJSON('package.json'),
-        bootstrapdir: 'bootstrap-3.0.0',
+        bootstrapdir: 'bootstrap-3.1.0',
 
         clean: {
             dist: ['dist']
